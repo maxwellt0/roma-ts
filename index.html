@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8" />
+<title>Курчата в загін — Phaser 2D Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="game-wrap">
+  <div id="game-container"></div>
+  <div id="hint">
+    Клікай на курчат, щоб загнати їх в загін праворуч внизу 🐔 — незайняте курча за 10с стає квочкою:
+    вона бігає і їсть траву вдвічі швидше за курчат, а за 10с висиджує ще двох (потребує 2 кліків, дає 2 очки).
+    Індики 🦃 з'являються що 20с, бігають і їдять втричі швидше, і потребують 3 кліків (3 очки).
+    Ховайся в кущах 🌳 — там курчата трохи невидимі і не розмножуються. Загони 10 — відкриється сітка.
+    Протримайся 2 хвилини, поки трава не закінчилась!
+  </div>
+</div>
+
+<script src="js/constants.js"></script>
+<script src="js/sound.js"></script>
+<script src="js/mainScene.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>

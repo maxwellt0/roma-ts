@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #1b1f2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+#game-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+#game-container {
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+#hint {
+  color: #aab2c5;
+  font-size: 13px;
+  text-align: center;
+  max-width: 800px;
+}

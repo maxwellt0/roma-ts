@@ -1,0 +1,28 @@
+{
+  "name": "roma-ts",
+  "version": "1.0.0",
+  "description": "hey",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxwellt0/roma-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maxwellt0/roma-ts/issues"
+  },
+  "homepage": "https://github.com/maxwellt0/roma-ts#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "phaser": "^3.80.1",
+    "typescript": "^7.0.2"
+  }
+}
